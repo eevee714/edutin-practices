@@ -31,5 +31,6 @@ int main(int argc, string argv[])
     else
     {
         printf("Usage: ./pennies <days of the month> <pennies>\n");
+        return 1;
     }
 }
