@@ -18,5 +18,6 @@ int main(int argc, string argv[])
     else
     {
         printf("Usage: ./fahrenheit <number>\n");
+        return 1;
     }
 }
